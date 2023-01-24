@@ -12,7 +12,23 @@
 		937B9E40297A729200160EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B9E3F297A729200160EDD /* ViewController.swift */; };
 		937B9E45297A729400160EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937B9E44297A729400160EDD /* Assets.xcassets */; };
 		937B9E48297A729400160EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937B9E46297A729400160EDD /* LaunchScreen.storyboard */; };
+		937B9E6A297A76F700160EDD /* iOSNativeBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937B9E69297A76F700160EDD /* iOSNativeBaseFramework.framework */; };
+		937B9E6B297A76F700160EDD /* iOSNativeBaseFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 937B9E69297A76F700160EDD /* iOSNativeBaseFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		937B9E6C297A76F700160EDD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				937B9E6B297A76F700160EDD /* iOSNativeBaseFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		937B9E38297A729200160EDD /* iOSNativeBaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNativeBaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +38,7 @@
 		937B9E44297A729400160EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937B9E47297A729400160EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937B9E49297A729400160EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937B9E69297A76F700160EDD /* iOSNativeBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSNativeBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937B9E6A297A76F700160EDD /* iOSNativeBaseFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 			children = (
 				937B9E3A297A729200160EDD /* iOSNativeBaseApp */,
 				937B9E39297A729200160EDD /* Products */,
+				937B9E68297A76F700160EDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +83,14 @@
 			path = iOSNativeBaseApp;
 			sourceTree = "<group>";
 		};
+		937B9E68297A76F700160EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937B9E69297A76F700160EDD /* iOSNativeBaseFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +101,7 @@
 				937B9E34297A729200160EDD /* Sources */,
 				937B9E35297A729200160EDD /* Frameworks */,
 				937B9E36297A729200160EDD /* Resources */,
+				937B9E6C297A76F700160EDD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
