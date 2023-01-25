@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		931677BC297FBDD900961DD8 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931677BB297FBDD900961DD8 /* ColorPalette.swift */; };
 		937B9E5D297A743300160EDD /* iOSNativeBaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 937B9E5C297A743300160EDD /* iOSNativeBaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C8EFD02980F37B00362032 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8EFCF2980F37B00362032 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		931677BB297FBDD900961DD8 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		937B9E59297A743300160EDD /* iOSNativeBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSNativeBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		937B9E5C297A743300160EDD /* iOSNativeBaseFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSNativeBaseFramework.h; sourceTree = "<group>"; };
+		B2C8EFCF2980F37B00362032 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +49,19 @@
 		937B9E5B297A743300160EDD /* iOSNativeBaseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				B2C8EFCE2980F36600362032 /* Tokens */,
 				937B9E5C297A743300160EDD /* iOSNativeBaseFramework.h */,
 				931677BB297FBDD900961DD8 /* ColorPalette.swift */,
 			);
 			path = iOSNativeBaseFramework;
+			sourceTree = "<group>";
+		};
+		B2C8EFCE2980F36600362032 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				B2C8EFCF2980F37B00362032 /* Colors.swift */,
+			);
+			path = Tokens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931677BC297FBDD900961DD8 /* ColorPalette.swift in Sources */,
+				B2C8EFD02980F37B00362032 /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
